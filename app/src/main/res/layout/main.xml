@@ -8,9 +8,18 @@
     tools:context="mitso.v.homework_2.MainActivity">
 
     <TextView
+        android:id="@+id/dt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="default text" />
+
+    <TextView
+        android:id="@+id/mt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dt"
+        android:layout_centerHorizontal="true"
+        android:text="text created working in master branch" />
 
 </RelativeLayout>
