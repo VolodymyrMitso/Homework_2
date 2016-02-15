@@ -22,4 +22,12 @@
         android:layout_centerHorizontal="true"
         android:text="text created working in new_branch" />
 
+    <TextView
+        android:id="@+id/mt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nbt"
+        android:layout_centerHorizontal="true"
+        android:text="text created working in master branch" />
+
 </RelativeLayout>
